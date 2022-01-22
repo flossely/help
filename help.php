@@ -34,6 +34,10 @@ if ($article != '') {
 <?php
 } else {
 ?>
+<p>
+<a href="javascript:get('i', 'from', 'help', 'flossely');">UPDATE</a>
+<a href="index.php">EXIT</a>
+</p>
 <h2>TABLE OF CONTENTS</h2>
 <?php
     foreach ($list as $key=>$value) {
