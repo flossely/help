@@ -26,7 +26,7 @@ if ($article != '') {
 ?>
     <p>
     <a href="help.php">GO TO INDEX</a>
-    <a href="get('i', 'from', 'help', 'flossely');">UPDATE</a>
+    <a href="javascript:get('i', 'from', 'help', 'flossely');">UPDATE</a>
     </p>
     <h2><?=$arthead;?></h2>
     <p><?=$artbody;?></p>
