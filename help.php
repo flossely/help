@@ -24,7 +24,10 @@ if ($article != '') {
     $arthead = $artdiv[0];
     $artbody = $artdiv[1];
 ?>
-    <p><a href="help.php">GO TO INDEX</a></p>
+    <p>
+    <a href="help.php">GO TO INDEX</a>
+    <a href="get('i', 'from', 'help', 'flossely');">UPDATE</a>
+    </p>
     <h2><?=$arthead;?></h2>
     <p><?=$artbody;?></p>
 <?php
