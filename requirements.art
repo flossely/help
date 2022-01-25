@@ -1,0 +1,1 @@
+Minimal System Requirements=||=<p><b>[For Server Side]</b><br>Operating System: UNIX-like<br>Processor Architecture: x86-64<br>RAM Size: 8 GB<br>Web Server: Apache/Nginx<br><br>Programming Languages: PHP, MySQL<br>Additional Features: Git</p><p><b>[For Client Side]</b><br>Network Protocols: TCP/IP, DNS, HTTP<br>Browser: HTML5, CSS3, JS<br>Browser Engine: Chromium<br></p>
