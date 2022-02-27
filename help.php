@@ -14,8 +14,8 @@ if ($article != '') {
 <title>Help</title>
 <link rel="shortcut icon" href="sys.help.png?rev=<?=time();?>" type="image/x-icon">
 <link href="system.css?rev=<?=time();?>" rel="stylesheet">
-<script src="jquery.js"></script>
-<script src="base.js"></script>
+<script src="jquery.js?rev=<?=time();?>"></script>
+<script src="base.js?rev=<?=time();?>"></script>
 </head>
 <body>
 <?php
