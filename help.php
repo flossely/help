@@ -20,7 +20,7 @@ if ($article != '') {
 <body>
 <?php
 if ($article != '') {
-    $artdiv = explode('=||=', $content);
+    $artdiv = explode('|[1]|', $content);
     $arthead = $artdiv[0];
     $artbody = $artdiv[1];
 ?>
@@ -43,7 +43,7 @@ if ($article != '') {
     foreach ($list as $key=>$value) {
         $artbase = basename($value, '.art');
         $content = file_get_contents($value);
-        $artdiv = explode('=||=', $content);
+        $artdiv = explode('|[1]|', $content);
         $arthead = $artdiv[0];
         $artbody = $artdiv[1];
 ?>

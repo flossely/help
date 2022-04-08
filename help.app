@@ -1,1 +1,1 @@
-Help=||=sys.help.png=||=window.location.href='help.php';
+Help|[1]|sys.help.png|[1]|window.location.href='help.php';
